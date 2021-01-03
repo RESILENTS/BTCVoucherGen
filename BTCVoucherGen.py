@@ -1,6 +1,13 @@
 import random
-num = input('login ')
-pas = ''
-for x in range(16): #Количество символов (16)
-    pas = pas + random.choice(list('1234567890abcdefghigklmnopqrstuvyxwzABCDEFGHIGKLMNOPQRSTUVYXWZ')) #Символы, из которых будет составлен пароль
-print('Hello, ', num, 'your password is: ', pas)
+
+chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+number = input('количество паролей?'+ "\n")
+length = input('длина пароля?'+ "\n")
+number = int(number)
+length = int(length)
+
+for n in range(number):
+    password =''
+    for i in range(length):
+        password += random.choice(chars)
+    print('link' + password)
