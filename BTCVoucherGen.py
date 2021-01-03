@@ -1,18 +1,11 @@
-import secrets
+import random
 
-number = int(input('количество паролей?' + "\n"))
-length = int(input('длина пароля?' + "\n"))
+chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+number = int(input('количество паролей?'+ "\n"))
 
-
-def symbol():
-    symbols = ([chr(s) for s in range(33, 127)])  # магия здесь
-    return symbols
-
-
-symbol()
-
+length = int(input('длина пароля?'+ "\n"))
 for n in range(number):
-    password = ''
+    password =''
     for i in range(length):
-        password += secrets.choice(symbol())
+        password += random.choice(chars)
     print(password)
