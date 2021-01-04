@@ -13,4 +13,5 @@ for n in range(number):
     password =''
     for i in range(length):
         password += random.choice(chars)
-    print(btc_link, password)
+
+print('https://', password, '/')
