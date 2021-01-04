@@ -16,9 +16,11 @@ length = input('[❌] Введите число символов в ваучер
 print(' ')
 number = int(number)
 length = int(length)
-print('[✅] Успешно сгенерировали ', length, ' ссылок.')
+print(' ')
+print('[✅] Успешно сгенерировали', number, 'ссылок:')
+print(' ')
 for n in range(number):
     password =''
     for i in range(length):
         password += random.choice(chars)
-    print('https://t.me/BTC_CHANGE_BOT?start=b_', password)
+    print('https://t.me/BTC_CHANGE_BOT?start=b_',password)
