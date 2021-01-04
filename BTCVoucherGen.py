@@ -1,8 +1,5 @@
 import random
 
-
-
-
 chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 number = int(input('количество паролей?'+ "\n"))
 
@@ -14,4 +11,4 @@ for n in range(number):
     for i in range(length):
         password += random.choice(chars)
 
-print('https://', password, '/')
+print("btc_link", password)
