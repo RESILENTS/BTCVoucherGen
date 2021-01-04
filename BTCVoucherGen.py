@@ -1,5 +1,6 @@
 import random
 
+print('➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖');
 chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 number = int(input('количество паролей?'+ "\n"))
 
