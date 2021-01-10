@@ -21,7 +21,6 @@ Print()
 
 if inp == '1':
 
-chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
 print(' ')
 length = input('[BTCCheckGen] ➕ Укажите длинну чека (советуем ввести 32):'+ "\n")
@@ -49,7 +48,6 @@ print(' ')
 
 elif inp == '2':
 
-chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
 print(' ')
 length = input('[BTCCheckGen] ➕ Укажите длинну чека (советуем ввести 32):'+ "\n")
