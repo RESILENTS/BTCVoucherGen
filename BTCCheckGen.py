@@ -1,5 +1,7 @@
 import random
 
+chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+
 print(' ')
 print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
@@ -17,7 +19,7 @@ print()
 inp = input("[BTCCheckBot] Ваш выбор: ")
 
 if inp == '1':
-chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
 print(' ')
 number = int(number)
@@ -36,7 +38,7 @@ for n in range(number):
 
 
 elif inp == '2':
-chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
 print(' ')
 number = int(number)
