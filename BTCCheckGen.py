@@ -17,7 +17,7 @@ print('1️⃣ BTC_EXCHANGE_BOT')
 print('2️⃣ CHATEX_BOT')
 print()
 inp = input("[BTCCheckBot] Ваш выбор: ")
-
+Print()
 if inp == '1':
 print()
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
