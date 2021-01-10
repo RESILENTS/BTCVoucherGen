@@ -19,7 +19,7 @@ print()
 inp = input("[BTCCheckBot] Ваш выбор: ")
 
 if inp == '1':
-
+print()
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
 print(' ')
 number = int(number)
