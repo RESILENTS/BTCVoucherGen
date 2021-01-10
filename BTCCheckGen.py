@@ -1,13 +1,13 @@
 import random
 
 print(' ')
-print('➖➖➖➖➖➖➖[ BTCCheckGen 1.0 ]➖➖➖➖➖➖➖')
+print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
-print('❌ Генератор чеков для @BTC_CHANGE_BOT')
+print('❌ Генератор BTC чеков')
 print('❌ Скрипт написан для канала ТЕНЕВОЙ БИЗНЕС')
 print('❌ Автор: t.me/resilents | Наши проекты: t.me/shadowbiznes')
 print(' ')
-print('➖➖➖➖➖➖➖[ BTCCheckGen 1.0 ]➖➖➖➖➖➖➖')
+print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
 chars = 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 number = input('[BTCCheckGen] ➕ Укажите желаемое количество ссылок для генерации:'+ "\n")
@@ -17,12 +17,12 @@ print(' ')
 number = int(number)
 length = int(length)
 print(' ')
-print('➖➖➖➖➖➖➖[ BTCCheckGen 1.0 ]➖➖➖➖➖➖➖')
+print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
 print('[BTCCheckGen] ✅ Работа скрипта успешно завершена: ', number, ' чеков сгенерировано.')
 print('[BTCCheckGen] ⚠️ ВНИМАНИЕ: Скрипт генерирует рандомные чеки, проверять на валидность придется вручную.')
 print(' ')
-print('➖➖➖➖➖➖➖[ BTCCheckGen 1.0 ]➖➖➖➖➖➖➖')
+print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
 for n in range(number):
     password =''
@@ -32,5 +32,5 @@ for n in range(number):
 print(' ')
 print('[BTCCheckGen] ℹ Все новости и обновления скрипта в нашем телеграм канале, подпишись и не пропускай новые плюшки.')
 print(' ')
-print('➖➖➖➖➖➖➖[ BTCCheckGen 1.0 ]➖➖➖➖➖➖➖')
+print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
