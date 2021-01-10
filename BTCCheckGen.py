@@ -25,7 +25,6 @@ print(' ')
 print('➖➖➖➖➖➖➖[ BTCCheckGen 1.1 ]➖➖➖➖➖➖➖')
 print(' ')
 for n in range(number):
-    password =''
     for i in range(length):
         password += random.choice(chars)
     print('https://t.me/BTC_CHANGE_BOT?start=b_',password)
