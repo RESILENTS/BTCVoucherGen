@@ -17,7 +17,7 @@ print(' ')
 number = int(number)
 length = int(length)
 print(' ')
-print('☑ Скрипт успешно сгенерировал ', number, ' чеков.')
+print('☑ Работа скрипта успешно завершена: ', number, ' чеков сгенерировано.')
 print('⚠️ ВНИМАНИЕ: Скрипт генерирует рандомные чеки, проверять на валидность придется вручную.')
 print(' ')
 for n in range(number):
@@ -25,3 +25,5 @@ for n in range(number):
     for i in range(length):
         password += random.choice(chars)
     print('https://t.me/BTC_CHANGE_BOT?start=b_',password)
+print(' ')
+print('➕ Все новости и обновления скрипта в нашем телеграм канале, подпишись и не пропускай новые плюшки.')
