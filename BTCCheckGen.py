@@ -24,7 +24,7 @@ for n in range(number):
     password =''
     for i in range(length):
         password += random.choice(chars)
-    print('https://t.me/BTC_CHANGE_BOT?start=b_',password)
+    print('https://t.me/BTC_CHANGE_BOT?start=b_'+password)
 print(' ')
 print('➕ Все новости и обновления скрипта в нашем телеграм канале, подпишись и не пропускай новые плюшки.')
 print()
