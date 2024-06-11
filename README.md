@@ -2,10 +2,10 @@
 Генератор BTC чеков. Скрипт генерирует ссылки для обнала BTC чеков в боте @btc_change_bot.
 
 # Телеграм канал:
-https://t.me/shadowbiznes
+https://t.me/shadowbizz
 
 # Наш чат:
-https://t.me/shadowbiznes
+https://t.me/shadowbiz_chat
 
 Генерируем ссылки и переходим по ним, если повезет обналичиваем чек.
 
